@@ -42,6 +42,6 @@ jobs:
       with:
           deploy_key: ${{ secrets.HEXO_DEPLOY_PRIVATE_KEY}}
           external_repository: mu0chen/mu0chen.github.io
-          publish_branch: main
+          publish_branch: master
           publish_dir: ./public
           commit_message: ${{ github.event.head_commit.message }}
