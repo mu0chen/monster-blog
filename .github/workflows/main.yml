@@ -21,10 +21,10 @@ jobs:
       uses: actions/checkout@master 
       
     # from: https://github.com/actions/setup-node  
-    - name: Setup Node.js 11.x 
+    - name: Setup Node.js 6.x 
       uses: actions/setup-node@master
       with:
-        node-version: "10.x"
+        node-version: "6.x"
     
     # from https://github.com/x-cold/yuque-hexo
     - name: Setup Hexo Dependencies and Generate Public Files
