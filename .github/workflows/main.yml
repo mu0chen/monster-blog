@@ -6,6 +6,7 @@ on: [push, repository_dispatch]
 
 # YUQUE_TOKEN
 # Github_SSH_PRIVATE_KEY
+
 jobs:
   deploy: 
     name: Deploy Hexo Public To Pages
