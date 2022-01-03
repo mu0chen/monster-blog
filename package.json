@@ -28,7 +28,7 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
     "hexo-theme-landscape": "^0.0.3",
-    "yuque-hexo": "^1.7.0"
+    "yuque-hexo": "^1.8.0"
   },
   "yuqueConfig": {
     "baseUrl": "https://www.yuque.com/api/v2",
