@@ -30,9 +30,11 @@ jobs:
     - name: Setup Hexo Dependencies and Generate Public Files
       env:
         YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+        HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
       run: |
         npm install hexo-cli -g
         npm install yuque-hexo -g
+        npm install --save hexo-algolia
         npm install
         npm run start
         

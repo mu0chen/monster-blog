@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Monster的博客
 subtitle: ''
 description: ''
-keywords:
-author: John Doe
-language: en
+keywords: 
+author: Monster
+language: cn
 timezone: ''
 
 # URL
@@ -44,7 +44,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -97,7 +97,56 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: hexo-theme-aomori
+
+## hexo-theme-aomori config
+aomori_logo: /images/avatar.jpg
+aomori_logo_typed_animated: true
+aomori_menu:
+  首页: /
+  存档: /archives
+aomori_widgets:
+  - toc # 文章导航
+  - category  #文章分类
+  - tag # 文章标签
+  - recent_posts  # 最新文章
+  - archive #文章归档
+# 知识共享使用许可
+aomori_copyright: true # or false
+
+# 百度链接提交
+aomori_baidu_sitepush: true  # or false
+
+# 百度统计
+aomori_baidu_analytics: ''
+
+# Google统计
+aomori_google_analytics: 'UA-XXXXX-X'
+
+# 不蒜子统计
+aomori_busuanzi: true
+
+# 社交媒体
+aomori_social:
+  -
+    icon: github
+    type: logo
+    url: https://github.com/mu0chen
+  -
+    icon: instagram
+    type: logo
+    url: https://www.yuque.com/jutouxigua/wzqidw
+
+# google站点验证
+aomori_google_site:
+  enable: true
+  id: monster
+# 搜索
+algolia:
+    applicationID: '34YJQVD6HB'
+    apiKey: 'b82e4bbc056620d998d2fbfdd5fddd4e'
+    indexName: 'blog'
+aomori_search_algolia: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
